@@ -1,60 +1,26 @@
 {
-  "_args": [
-    [
-      "nubo-menu@https://na01.nubosoftware.com:4872/nubo-menu/-/nubo-menu-1.0.0.tgz",
-      "/mnt/diskB/N7/nubomanagement"
-    ]
-  ],
-  "_from": "nubo-menu@https://na01.nubosoftware.com:4872/nubo-menu/-/nubo-menu-1.0.0.tgz",
-  "_id": "nubo-menu@https://na01.nubosoftware.com:4872/nubo-menu/-/nubo-menu-1.0.0.tgz",
-  "_inBundle": false,
-  "_integrity": "sha512-jT5++53GHBAn0Nm3MMINz31b508jt96BRNZ0cXMd6E5lKvigDY9VAwVxbNBtq1ycDH536J90M1VoEYhr3cyWqg==",
-  "_location": "/nubo-menu",
-  "_nodeVersion": "4.4.5",
-  "_npmUser": {
-    "name": "yefim",
-    "email": "yafim.autenshlus@nubosoftware.com"
-  },
-  "_npmVersion": "2.15.5",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "remote",
-    "raw": "nubo-menu@https://na01.nubosoftware.com:4872/nubo-menu/-/nubo-menu-1.0.0.tgz",
-    "name": "nubo-menu",
-    "escapedName": "nubo-menu",
-    "rawSpec": "https://na01.nubosoftware.com:4872/nubo-menu/-/nubo-menu-1.0.0.tgz",
-    "saveSpec": "https://na01.nubosoftware.com:4872/nubo-menu/-/nubo-menu-1.0.0.tgz",
-    "fetchSpec": "https://na01.nubosoftware.com:4872/nubo-menu/-/nubo-menu-1.0.0.tgz"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": false,
-  "_shasum": "2de5bfb48905f3773f85943b740e3f03b8263b4f",
-  "_spec": "https://na01.nubosoftware.com:4872/nubo-menu/-/nubo-menu-1.0.0.tgz",
-  "_where": "/mnt/diskB/N7/nubomanagement",
-  "author": "",
-  "dependencies": {
-    "colors": "^0.6.2",
-    "underscore": "^1.8.3"
-  },
+  "name": "@nubosoftware/nubo-menu",
+  "version": "1.0.0",
   "description": "",
-  "dist": {
-    "shasum": "2de5bfb48905f3773f85943b740e3f03b8263b4f",
-    "tarball": "https://na20.nubosoftware.com:4874/nubo-menu/-/nubo-menu-1.0.0.tgz"
-  },
-  "gitHead": "54b152b46301cd1e506f2aaf6980fbad5c06796e",
-  "license": "ISC",
   "main": "index.js",
-  "maintainers": [
-    {
-      "name": "yefim",
-      "email": "yafim.autenshlus@nubosoftware.com"
-    }
-  ],
-  "name": "nubo-menu",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nubosoftware/nubo-menu.git"
+  },
+  "author": "Nubo Softwre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nubosoftware/nubo-menu/issues"
+  },
+  "homepage": "https://github.com/nubosoftware/nubo-menu#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "underscore": "^1.13.2"
+  }
 }
